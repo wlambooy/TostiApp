@@ -10,9 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="460688cf-9914-4481-aef6-94de67c10d07" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="460688cf-9914-4481-aef6-94de67c10d07" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1468">
-              <caret line="250" column="33" lean-forward="true" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
+              <caret line="250" column="33" lean-forward="false" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
               <folding>
                 <element signature="e#2171#2562#0" expanded="true" />
                 <element signature="e#2561#2562#0" expanded="true" />
@@ -2762,7 +2760,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1468">
-          <caret line="250" column="33" lean-forward="true" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
+          <caret line="250" column="33" lean-forward="false" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
           <folding>
             <element signature="e#2171#2562#0" expanded="true" />
             <element signature="e#2561#2562#0" expanded="true" />
