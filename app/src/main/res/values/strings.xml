@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TostiApp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_again">Password (again)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_create_account">Create account</string>
+    <string name="error_name_length">A name must be at least 3 characters long</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_email_exists">This email already exists</string>
+    <string name="error_enter_password">Please enter a password</string>
+    <string name="error_invalid_password">A password must be at least 6 characters long</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_passwords_not_matching">The passwords do not match</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sign_in_help">Use your RU Science account to log in</string>
+    <string name="error_email_not_found">This email address was not found</string>
+    <string name="title_activity_main_user">MainActivityUser</string>
+    <string name="action_settings">Sign out</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main_admin">MainActivityAdmin</string>
+    <string name="title_activity_starting">StartingActivity</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="title_activity_login">Sign in</string>
+
+</resources>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "498728281399",
+    "firebase_url": "https://tostiapp-6bfb1.firebaseio.com",
+    "project_id": "tostiapp-6bfb1",
+    "storage_bucket": "tostiapp-6bfb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498728281399:android:b8ce342cdac5cd19",
+        "android_client_info": {
+          "package_name": "com.example.wille.tostiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498728281399-abrd3hiho6u7kj1o071is5a7qaio2haf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wille.tostiapp",
+            "certificate_hash": "cb9602ded052b9a20e52522ff17f0f1ae8a9f1b8"
+          }
+        },
+        {
+          "client_id": "498728281399-qi864aahl8ln14eaivr3uqngt1u0e10e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "498728281399-qi864aahl8ln14eaivr3uqngt1u0e10e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6wEkV5AwUUk2Uy0csUvwRkKJfJ3i5ViU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498728281399-qi864aahl8ln14eaivr3uqngt1u0e10e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
