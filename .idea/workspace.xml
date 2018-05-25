@@ -10,528 +10,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="460688cf-9914-4481-aef6-94de67c10d07" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <list default="true" id="460688cf-9914-4481-aef6-94de67c10d07" name="Default" comment="change test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/wille/tostiapp/LoginActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/CreateAccountActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/wille/tostiapp/LoginActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/fT1bp5gUrZ2W3gGpmFOACO7Ppl4=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/fT1bp5gUrZ2W3gGpmFOACO7Ppl4=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/arch/lifecycle/livedata/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/android/support/v7/recyclerview/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/arch/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/arch/lifecycle/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/arch/lifecycle/livedata/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/arch/lifecycle/viewmodel/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/com/google/firebase/firebase/auth/api/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/compat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/constraint/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/constraint/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/constraint/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/constraint/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreui/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/coreutils/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$animator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/design/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/compat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$animator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/design/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/android/support/graphics/drawable/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/fragment/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/arch/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/android/support/coreutils/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/com/google/android/gms/measurement/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/com/google/firebase/database/connection/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/com/google/firebase/firebase/iid/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/com/google/firebase/iid/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/android/support/android/tools/ir/dummy/slice_3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/android/support/constraint/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/android/support/constraint/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/android/support/constraint/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/android/support/constraint/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/BuildConfig.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$4.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/CreateAccountActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$4.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$UserLoginTask$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity$UserLoginTask.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/LoginActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityAdmin$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityAdmin$PlaceholderFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityAdmin$SectionsPagerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityAdmin.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityUser$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityUser$PlaceholderFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityUser$SectionsPagerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/MainActivityUser.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/Manifest$permission.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/Manifest.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$animator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$menu.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$mipmap.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/StartingActivity$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/StartingActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/User$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/example/wille/tostiapp/User.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/google/android/gms/base/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/google/android/gms/base/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/google/firebase/auth/api/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/animated/com/google/firebase/measurement/impl/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/com/google/android/gms/common/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/com/google/firebase/database/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/com/google/firebase/firebase/common/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/graphics/drawable/com/google/firebase/firebase/database/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/mediacompat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/fragment/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/android/support/v4/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/transition/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v4/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/appcompat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/android/support/v7/recyclerview/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/BuildConfig.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$4.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/CreateAccountActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$4.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$UserLoginTask$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity$UserLoginTask.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/LoginActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityAdmin$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityAdmin$PlaceholderFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityAdmin$SectionsPagerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityAdmin.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityUser$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityUser$PlaceholderFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityUser$SectionsPagerAdapter.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/MainActivityUser.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/Manifest$permission.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/Manifest.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$animator.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$menu.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$mipmap.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/StartingActivity$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/StartingActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/User$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/example/wille/tostiapp/User.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/base/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/base/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/common/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/measurement/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/measurement/impl/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/tasks/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/android/gms/tasks/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/auth/api/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/database/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/database/connection/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/firebase/auth/api/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/firebase/common/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/firebase/database/connection/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/firebase/database/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/firebase/iid/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/firebase_core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/iid/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/measurement/impl/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/126/com/google/firebase/measurement/license/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/76/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/CreateAccountActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/wille/tostiapp/LoginActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/1/com/android/tools/ir/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/1/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$override.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/CreateAccountActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity$UserLoginTask.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/example/wille/tostiapp/LoginActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/CreateAccountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/CreateAccountActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -558,8 +38,8 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="248" column="29" lean-forward="false" selection-start-line="248" selection-start-column="29" selection-end-line="248" selection-end-column="29" />
+            <state relative-caret-position="482">
+              <caret line="221" column="33" lean-forward="true" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
               <folding>
                 <element signature="e#2171#2562#0" expanded="true" />
                 <element signature="e#2561#2562#0" expanded="true" />
@@ -573,12 +53,12 @@
                 <element signature="e#6655#6656#0" expanded="true" />
                 <element signature="e#6838#7054#0" expanded="true" />
                 <element signature="e#7053#7054#0" expanded="true" />
-                <element signature="e#8204#9545#0" expanded="true" />
-                <element signature="e#8705#9125#0" expanded="true" />
-                <element signature="e#9124#9125#0" expanded="true" />
-                <element signature="e#9544#9545#0" expanded="true" />
-                <element signature="e#11438#11439#0" expanded="true" />
-                <element signature="e#11497#11498#0" expanded="true" />
+                <element signature="e#8179#9520#0" expanded="true" />
+                <element signature="e#8680#9100#0" expanded="true" />
+                <element signature="e#9099#9100#0" expanded="true" />
+                <element signature="e#9519#9520#0" expanded="true" />
+                <element signature="e#11413#11414#0" expanded="true" />
+                <element signature="e#11472#11473#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -623,16 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -650,6 +120,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2701,8 +2172,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_create_account.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/CreateAccountActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java" />
       </list>
     </option>
   </component>
@@ -2774,7 +2245,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="device.picker.selection" value="0123456789ABCDEF" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2961,6 +2432,14 @@
       <option name="presentableId" value="Default" />
       <updated>1527152925665</updated>
     </task>
+    <task id="LOCAL-00001" summary="change test">
+      <created>1527264985564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527264985564</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2988,7 +2467,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3996674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982263" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3012,6 +2491,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change test" />
+    <option name="LAST_COMMIT_MESSAGE" value="change test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3264,8 +2747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="248" column="29" lean-forward="false" selection-start-line="248" selection-start-column="29" selection-end-line="248" selection-end-column="29" />
+        <state relative-caret-position="482">
+          <caret line="221" column="33" lean-forward="true" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
           <folding>
             <element signature="e#2171#2562#0" expanded="true" />
             <element signature="e#2561#2562#0" expanded="true" />
@@ -3279,12 +2762,12 @@
             <element signature="e#6655#6656#0" expanded="true" />
             <element signature="e#6838#7054#0" expanded="true" />
             <element signature="e#7053#7054#0" expanded="true" />
-            <element signature="e#8204#9545#0" expanded="true" />
-            <element signature="e#8705#9125#0" expanded="true" />
-            <element signature="e#9124#9125#0" expanded="true" />
-            <element signature="e#9544#9545#0" expanded="true" />
-            <element signature="e#11438#11439#0" expanded="true" />
-            <element signature="e#11497#11498#0" expanded="true" />
+            <element signature="e#8179#9520#0" expanded="true" />
+            <element signature="e#8680#9100#0" expanded="true" />
+            <element signature="e#9099#9100#0" expanded="true" />
+            <element signature="e#9519#9520#0" expanded="true" />
+            <element signature="e#11413#11414#0" expanded="true" />
+            <element signature="e#11472#11473#0" expanded="true" />
           </folding>
         </state>
       </provider>
