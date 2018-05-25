@@ -38,8 +38,8 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="221" column="33" lean-forward="true" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
+            <state relative-caret-position="1468">
+              <caret line="250" column="33" lean-forward="true" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
               <folding>
                 <element signature="e#2171#2562#0" expanded="true" />
                 <element signature="e#2561#2562#0" expanded="true" />
@@ -2446,7 +2446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527265162579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change test">
+      <created>1527265201281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527265201281</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2754,8 +2761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/wille/tostiapp/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="221" column="33" lean-forward="true" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
+        <state relative-caret-position="1468">
+          <caret line="250" column="33" lean-forward="true" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
           <folding>
             <element signature="e#2171#2562#0" expanded="true" />
             <element signature="e#2561#2562#0" expanded="true" />
