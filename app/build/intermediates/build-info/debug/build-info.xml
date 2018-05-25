@@ -2,65 +2,99 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="25"
-    build-mode="HOT_WARM"
+    build-mode="FULL"
     density="560dpi"
     format="10"
+    ir-eligibility="METHOD_DELETED"
     plugin-version="3.1.2"
-    timestamp="1527262069118"
+    timestamp="1527264133889"
     token="7163423902043330786"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="81" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="51" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="5" />
+        duration="10" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
-        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1527262010055"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1527264133889"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -68,14 +102,6 @@
         <artifact
             location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1527262069118"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/root/stack/_RU/R&amp;D/TostiApp/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

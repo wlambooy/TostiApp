@@ -276,7 +276,6 @@ public class CreateAccountActivity extends AppCompatActivity {
 
         @Override
         protected Boolean doInBackground(Void... params) {
-
             final boolean[] success = {false,false};
 
             auth.createUserWithEmailAndPassword(mEmail, mPassword)

@@ -225,7 +225,6 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected Boolean doInBackground(Void... params) {
-
             final boolean[] success = {false, false};
 
             auth.signInWithEmailAndPassword(mEmail, mPassword)
@@ -245,6 +244,7 @@ public class LoginActivity extends AppCompatActivity {
                                 });
                             } else {
                                 Log.w("fbaselogin", "signInWithEmail:failure", task.getException());
+                                emailExists = task.getException().toString().contains("The password is invalid or the user does not have a password");
                                 success[1] = true;
                             }
                         }
@@ -257,29 +257,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
 
-            if (success[0])
-                return true;
-
-            success[1] = false;
-            getSnapshot(database).addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                @Override
-                public void onComplete(@NonNull Task<DataSnapshot> task) {
-                    DataSnapshot snap = task.getResult();
-                    for (DataSnapshot user : snap.getChildren())
-                        if (user.child("email").getValue().equals(mEmail))
-                            emailExists = true;
-                    success[1] = true;
-                }
-            });
-            while (!success[1]) {
-                try {
-                    Thread.sleep(10);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            return false;
+            return success[0];
         }
 
         @Override
