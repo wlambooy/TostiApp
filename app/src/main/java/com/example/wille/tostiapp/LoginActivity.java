@@ -215,12 +215,11 @@ public class LoginActivity extends AppCompatActivity {
 
         private final String mEmail;
         private final String mPassword;
-        private boolean emailExists;
+        private boolean emailExists = false;
 
         UserLoginTask(String email, String password) {
             mEmail = email;
             mPassword = password;
-            emailExists = false;
         }
 
         @Override
