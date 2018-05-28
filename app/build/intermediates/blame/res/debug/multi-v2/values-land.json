@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/root/stack/_RU/R&D/TostiApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\Niels\\Documents\\GitHub\\TostiApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/root/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/afc215d21bf15b431deecaba7a6d7d7a/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Niels\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\b3dffbdb839baa74d083ab015236f944\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cba00fa2af72faf8bbfe393c5b6ed366/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Niels\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\08ba69464d33539863bcaaf842754c07\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

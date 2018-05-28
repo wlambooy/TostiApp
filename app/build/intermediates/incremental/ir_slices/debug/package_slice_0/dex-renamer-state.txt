@@ -1,4 +1,4 @@
-#Fri May 25 18:02:16 CEST 2018
-base.0=/home/root/stack/_RU/R&D/TostiApp/app/build/intermediates/transforms/dexMerger/debug/96
+#Mon May 28 16:24:29 CEST 2018
+base.0=C\:\\Users\\Niels\\Documents\\GitHub\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

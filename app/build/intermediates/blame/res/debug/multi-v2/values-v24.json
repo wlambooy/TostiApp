@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/root/stack/_RU/R&D/TostiApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\Niels\\Documents\\GitHub\\TostiApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/home/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/c6c0489849b5d0cd53e167c8014f4f10/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Niels\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\f90456f288976a345658cead4cf398fa\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cba00fa2af72faf8bbfe393c5b6ed366/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Niels\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\08ba69464d33539863bcaaf842754c07\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

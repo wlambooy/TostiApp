@@ -70,6 +70,11 @@ public class MainActivityUser extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        Intent intent = new Intent(this, OrderActivity.class);
+        intent.putExtra("user", user);
+        startActivity(intent);
+
     }
 
     @Override

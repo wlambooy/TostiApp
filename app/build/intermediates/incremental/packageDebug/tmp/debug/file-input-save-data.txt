@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Fri May 25 18:03:05 CEST 2018
+#Mon May 28 21:54:19 CEST 2018
 0.baseType=DIRECTORY
-0.base=/home/root/stack/_RU/R&D/TostiApp/app/build/intermediates/transforms/dexMerger/debug/114
+0.base=C\:\\Users\\Niels\\Documents\\GitHub\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
 0.path=classes.dex
 0.set=DEX
 count=1
