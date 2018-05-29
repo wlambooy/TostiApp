@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "498728281399-cs8me90ia1v87d8dnmoq0hms5ii8cqbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wille.tostiapp",
+            "certificate_hash": "14936aa67c6acc8e51e4baecdb47393cdcc571e8"
+          }
+        },
+        {
           "client_id": "498728281399-abrd3hiho6u7kj1o071is5a7qaio2haf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

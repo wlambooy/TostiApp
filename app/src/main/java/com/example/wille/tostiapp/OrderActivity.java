@@ -1,8 +1,14 @@
 package com.example.wille.tostiapp;
 
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.Checkable;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -19,24 +25,32 @@ import java.util.Date;
 
 public class OrderActivity extends AppCompatActivity {
     private User user;
-    private FirebaseDatabase database;
+    private DatabaseReference database;
     private DatabaseReference today;
     private String date;
+
+    private CheckBox ham;
+    private CheckBox cheese;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
         // is there a list for today?
 
-        database = FirebaseDatabase.getInstance();
+        database = FirebaseDatabase.getInstance().getReference("orders");
         user = (User) getIntent().getExtras().get("user");
         assert(user != null);
+
+        ham     = (CheckBox) findViewById(R.id.ham);
+        cheese  = (CheckBox) findViewById(R.id.cheese);
 
 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         date = formatter.format(new Date());
 
-        database.getReference("orders").addListenerForSingleValueEvent(new ValueEventListener() {
+        database.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
                 if (snapshot.hasChild(date)) {
@@ -64,10 +78,9 @@ public class OrderActivity extends AppCompatActivity {
 
         if(remaining > 0) {
             int user_ordered = getOrderedUser(list);
-            user_tostis.setText(String.format("You have %d of your 2 tostis per day remaining!",2-user_ordered));
-            tostis_left.setText(String.format("There are %d tostis remaining",remaining));
+            user_tostis.setText(String.format(getString(R.string.tostis_remaining_1),2-user_ordered));
+            tostis_left.setText(String.format(getString(R.string.tostis_remaining_2),remaining));
             if(user_ordered < 2) {
-                setSpinner(Math.min(2-user_ordered,remaining));
 
             } else {
                 // error: user ordered 2
@@ -75,14 +88,6 @@ public class OrderActivity extends AppCompatActivity {
         } else {
             // error message: max tostis
         }
-    }
-
-    private void setSpinner(int nr) {
-        Spinner spinner = findViewById(R.id.amount);
-        String[] items = new String[nr];
-        for(int i=0; i < nr; i++)
-            items[i] = Integer.toString(i+1);
-        spinner.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items));
     }
 
     private int getOrderedUser(DataSnapshot list) {
@@ -94,5 +99,13 @@ public class OrderActivity extends AppCompatActivity {
                     total_ordered += (int) order.child("amount").getValue();
 
         return total_ordered;
+    }
+
+    public void makeOrder (View v) {
+        Order order = new Order(user.getName(), user.getUID(),
+                ((RadioButton) findViewById(R.id.amount_1)).isChecked() ? 1 : 2,
+                ham.isChecked(), cheese.isChecked());
+        database.child(date).child("1337").setValue(order);
+        Snackbar.make(findViewById(R.id.root), "Order placed", Snackbar.LENGTH_LONG).show();
     }
 }

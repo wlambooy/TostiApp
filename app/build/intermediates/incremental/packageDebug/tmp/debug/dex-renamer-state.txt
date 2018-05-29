@@ -1,4 +1,19 @@
-#Mon May 28 21:54:18 CEST 2018
-base.0=C\:\\Users\\Niels\\Documents\\GitHub\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+#Tue May 29 02:31:02 CEST 2018
+path.1=classes.dex
 path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.5=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\50
+base.4=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\55
+base.3=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\52
+base.2=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\54
+base.1=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\51
+base.0=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\53
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex
