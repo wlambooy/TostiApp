@@ -23,14 +23,6 @@
             android:name="com.example.wille.tostiapp.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name="com.example.wille.tostiapp.MainActivityAdmin"
-            android:label="@string/title_activity_main_admin"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.example.wille.tostiapp.MainActivityUser"
-            android:label="@string/title_activity_main_user"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name="com.example.wille.tostiapp.CreateAccountActivity"
             android:label="@string/title_activity_create_account" />
         <activity
@@ -43,6 +35,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.wille.tostiapp.OrderActivity" />
+        <activity android:name="com.example.wille.tostiapp.MainActivity" />
+        <activity android:name="com.example.wille.tostiapp.AdminActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

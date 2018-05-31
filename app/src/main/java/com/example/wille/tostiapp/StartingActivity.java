@@ -34,8 +34,8 @@ public class StartingActivity extends AppCompatActivity {
         signin = (Button) findViewById(R.id.sign_in);
         createaccount = (Button) findViewById(R.id.create_account);
 
-        signin.setVisibility(View.INVISIBLE);
-        createaccount.setVisibility(View.INVISIBLE);
+        signin.setVisibility(View.GONE);
+        createaccount.setVisibility(View.GONE);
     }
 
     @Override
@@ -49,15 +49,9 @@ public class StartingActivity extends AppCompatActivity {
                     User user = task.getResult();
                     if (user != null) {
                         finish();
-                        if (user.isAdmin()) {
-                            Intent intent = new Intent(StartingActivity.this, MainActivityAdmin.class);
-                            intent.putExtra("user", user);
-                            startActivity(intent);
-                        } else {
-                            Intent intent = new Intent(StartingActivity.this, MainActivityUser.class);
-                            intent.putExtra("user", user);
-                            startActivity(intent);
-                        }
+                        Intent intent = new Intent(StartingActivity.this, MainActivity.class);
+                        intent.putExtra("user", user);
+                        startActivity(intent);
                     }
                 }
             });

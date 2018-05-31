@@ -316,10 +316,6 @@
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main_activity_admin.xml.flat",
-        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\menu\\menu_main_activity_admin.xml"
-    },
-    {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\layout\\abc_search_view.xml"
     },
@@ -410,10 +406,6 @@
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_activity_user.xml.flat",
-        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\fragment_main_activity_user.xml"
     },
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -622,6 +614,10 @@
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
@@ -1140,6 +1136,10 @@
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\90482e548737e169b77660701b66ae85\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin.xml.flat",
+        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
@@ -1628,10 +1628,6 @@
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\974c791250e801c5ebee232fffa8f794\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_admin.xml.flat",
-        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\activity_main_admin.xml"
-    },
-    {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\974c791250e801c5ebee232fffa8f794\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -1690,10 +1686,6 @@
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\90482e548737e169b77660701b66ae85\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_user.xml.flat",
-        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\activity_main_user.xml"
     },
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
@@ -2010,10 +2002,6 @@
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_activity_admin.xml.flat",
-        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\fragment_main_activity_admin.xml"
     },
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\90482e548737e169b77660701b66ae85\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\aefcf01333c67b7f300ce9385c6607e6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cf7ea8f4cde58470fa32a3583a0c3e5c\AndroidManifest.xml:2:1-11:12
@@ -31,25 +31,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\wille\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fe053d3438332c57c0b6a3f429bb23ae\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b96512a1d86930c268f0ac727b401323\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7a2757209028dd5f4c2533c0d08a89a\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cf7ea8f4cde58470fa32a3583a0c3e5c\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cf7ea8f4cde58470fa32a3583a0c3e5c\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.1] C:\Users\wille\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.1.aar\5bb7846259aa9204b6da683cca7a4123\AndroidManifest.xml:22:5-36:19
@@ -82,48 +82,40 @@ ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:12:
 		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:14:13-57
 	android:name
 		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:13:13-42
-activity#com.example.wille.tostiapp.MainActivityAdmin
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:15:9-18:59
-	android:label
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:17:13-62
-	android:theme
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:18:13-56
-	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:16:13-46
-activity#com.example.wille.tostiapp.MainActivityUser
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:19:9-22:59
-	android:label
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:21:13-61
-	android:theme
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:22:13-56
-	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:20:13-45
 activity#com.example.wille.tostiapp.CreateAccountActivity
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:23:9-25:69
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:15:9-17:69
 	android:label
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:25:13-66
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:17:13-66
 	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:24:13-50
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:16:13-50
 activity#com.example.wille.tostiapp.StartingActivity
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:20:13-45
 	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:19:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.wille.tostiapp.OrderActivity
-ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:35:9-60
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:27:9-51
 	android:name
-		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:35:19-48
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:27:19-48
+activity#com.example.wille.tostiapp.MainActivity
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:28:19-47
+activity#com.example.wille.tostiapp.AdminActivity
+ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml:29:19-48
 uses-sdk
 INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Willem\Stack\_RU\R&D\TostiApp\app\src\main\AndroidManifest.xml

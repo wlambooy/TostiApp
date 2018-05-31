@@ -246,15 +246,9 @@ public class CreateAccountActivity extends AppCompatActivity {
 
     private void loginSuccess() {
         finishAffinity();
-        if (user.isAdmin()) {
-            Intent intent = new Intent(this, MainActivityAdmin.class);
-            intent.putExtra("user", user);
-            startActivity(intent);
-        } else {
-            Intent intent = new Intent(this, MainActivityUser.class);
-            intent.putExtra("user", user);
-            startActivity(intent);
-        }
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("user", user);
+        startActivity(intent);
     }
 
     /**

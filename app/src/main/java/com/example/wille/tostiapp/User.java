@@ -4,24 +4,24 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class User implements Parcelable {
-    private boolean isAdmin;
+    private boolean admin;
     private String email;
-    private String UID;
+    private String uid;
     private String name;
     private double saldo;
 
-    public User (boolean isAdmin, String email, String UID, String name, double saldo) {
-        this.isAdmin = isAdmin;
+    public User (boolean isAdmin, String email, String uid, String name, double saldo) {
+        this.admin = isAdmin;
         this.email = email;
-        this.UID = UID;
+        this.uid = uid;
         this.name = name;
         this.saldo = saldo;
     }
 
     protected User(Parcel in) {
-        isAdmin = in.readByte() != 0;
+        admin = in.readByte() != 0;
         email = in.readString();
-        UID = in.readString();
+        uid = in.readString();
         name = in.readString();
         saldo = in.readDouble();
     }
@@ -30,9 +30,9 @@ public class User implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeByte((byte) (isAdmin ? 1 : 0));
+        dest.writeByte((byte) (admin ? 1 : 0));
         dest.writeString(email);
-        dest.writeString(UID);
+        dest.writeString(uid);
         dest.writeString(name);
         dest.writeDouble(saldo);
     }
@@ -62,15 +62,15 @@ public class User implements Parcelable {
         return name;
     }
 
-    public String getUID() {
-        return UID;
+    public String getUid() {
+        return uid;
     }
 
     public double getSaldo() {
         return saldo;
     }
 
-    public boolean isAdmin() {
-        return isAdmin;
+    public boolean getAdmin() {
+        return admin;
     }
 }

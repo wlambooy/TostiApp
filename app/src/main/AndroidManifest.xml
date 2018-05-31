@@ -13,14 +13,6 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name=".MainActivityAdmin"
-            android:label="@string/title_activity_main_admin"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".MainActivityUser"
-            android:label="@string/title_activity_main_user"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".CreateAccountActivity"
             android:label="@string/title_activity_create_account" />
         <activity
@@ -32,7 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity"></activity>
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AdminActivity"></activity>
     </application>
 
 </manifest>
