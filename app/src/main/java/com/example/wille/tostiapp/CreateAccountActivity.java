@@ -246,7 +246,7 @@ public class CreateAccountActivity extends AppCompatActivity {
 
     private void loginSuccess() {
         finishAffinity();
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, user.getAdmin() ? AdminActivity.class : OrderActivity.class);
         intent.putExtra("user", user);
         startActivity(intent);
     }

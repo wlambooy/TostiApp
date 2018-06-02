@@ -6,6 +6,8 @@ public class Order {
     private int amount;
     private boolean withHam;
     private boolean withCheese;
+    private boolean ready = false;
+    private boolean received = false;
 
     public Order (String name, String uid, int amount, boolean withHam, boolean withCheese) {
         this.name = name;
@@ -15,6 +17,8 @@ public class Order {
         this.withCheese = withCheese;
         assert(withHam || withCheese);
     }
+
+    public Order () {}
 
     public String getName() {
         return name;
@@ -28,11 +32,19 @@ public class Order {
         return amount;
     }
 
-    public boolean isWithHam() {
+    public boolean getWithHam() {
         return withHam;
     }
 
-    public boolean isWithCheese() {
+    public boolean getWithCheese() {
         return withCheese;
+    }
+
+    public boolean getReady() {
+        return ready;
+    }
+
+    public boolean getReceived() {
+        return received;
     }
 }

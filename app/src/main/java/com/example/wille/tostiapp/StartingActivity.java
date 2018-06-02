@@ -49,7 +49,7 @@ public class StartingActivity extends AppCompatActivity {
                     User user = task.getResult();
                     if (user != null) {
                         finish();
-                        Intent intent = new Intent(StartingActivity.this, MainActivity.class);
+                        Intent intent = new Intent(StartingActivity.this, user.getAdmin() ? AdminActivity.class : OrderActivity.class);
                         intent.putExtra("user", user);
                         startActivity(intent);
                     }

@@ -196,7 +196,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginSuccess() {
         finishAffinity();
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, user.getAdmin() ? AdminActivity.class : OrderActivity.class);
         intent.putExtra("user", user);
         startActivity(intent);
     }
@@ -281,22 +281,6 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 tcs.setResult(dataSnapshot.getValue(User.class));
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                tcs.setException(databaseError.toException());
-            }
-        });
-        return tcs.getTask();
-    }
-
-    public static Task<DataSnapshot> getSnapshot (DatabaseReference database) {
-        final TaskCompletionSource<DataSnapshot> tcs = new TaskCompletionSource<>();
-        database.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                tcs.setResult(dataSnapshot);
             }
 
             @Override

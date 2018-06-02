@@ -1,16 +1,19 @@
 package com.example.wille.tostiapp;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,6 +42,7 @@ public class OrderActivity extends AppCompatActivity {
     private int tostis_ordered = 0;
     private int remaining = max - tostis_ordered;
     private long user_ordered = 0;
+    private int counter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,16 +60,66 @@ public class OrderActivity extends AppCompatActivity {
         user = (User) getIntent().getExtras().get("user");
         assert(user != null);
 
+        ((TextView) findViewById(R.id.loginid)).setText("Logged in as " + user.getEmail());
+
         orders.addValueEventListener(new ValueEventListener() {
+            @SuppressLint("DefaultLocale")
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.hasChild(date) && (long) dataSnapshot.child(date).child("max").getValue() > 0) {
-                    ((Button) findViewById(R.id.order)).setClickable(true);
-                    ((Button) findViewById(R.id.order)).setAlpha(1f);
-                    getMaxOrder(dataSnapshot.child(date));
+                ((Button) findViewById(R.id.order)).setClickable(false);
+                ((Button) findViewById(R.id.order)).setAlpha(.5f);
+                if (dataSnapshot.hasChild(date)) {
+                    boolean finished = false;
+                    if (dataSnapshot.child(date).hasChild("finished"))
+                        if ((boolean) dataSnapshot.child(date).child("finished").getValue()) {
+                            ((TextView) findViewById(R.id.tostis_left)).setText(getString(R.string.tostis_finished));
+                            finished = true;
+                        }
+                    if ((long) dataSnapshot.child(date).child("max").getValue() > 0 && !finished) {
+                        ((Button) findViewById(R.id.order)).setClickable(true);
+                        ((Button) findViewById(R.id.order)).setAlpha(1f);
+                        getMaxOrder(dataSnapshot.child(date));
+                    } else if (!finished)
+                        ((TextView) findViewById(R.id.tostis_left)).setText(getString(R.string.no_tostis_today));
+                    ((LinearLayout) findViewById(R.id.orders)).removeAllViews();
+                    ((LinearLayout) findViewById(R.id.orderslayout)).setVisibility(View.GONE);
+                    for (final DataSnapshot i : dataSnapshot.child(date).getChildren()) {
+                        Order order;
+                        try {
+                             order = i.getValue(Order.class);
+                        } catch (Exception e) {
+                            continue;
+                        }
+                        if (order.getUid().equals(user.getUid()) && !(order.getReady() && order.getReceived())) {
+                            Button b = new Button(OrderActivity.this);
+                            b.setTypeface(Typeface.MONOSPACE);
+                            b.setText(String.format("%s  -  %d  -  %c%c", order.getName(), order.getAmount(),
+                                    order.getWithHam() ? 'H' : ' ', order.getWithCheese() ? 'C' : ' '));
+                            b.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
+                            b.setClickable(false);
+                            if (!order.getReady())
+                                b.setAlpha(0.5f);
+                            LinearLayout ll = new LinearLayout(OrderActivity.this);
+                            ll.setOrientation(LinearLayout.HORIZONTAL);
+                            CheckBox cb = new CheckBox(OrderActivity.this);
+                            cb.setText("Received");
+                            cb.setChecked(order.getReceived());
+                            cb.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    today.child(i.getKey()).child("received").setValue(((CheckBox) v).isChecked());
+                                }
+                            });
+                            b.setLayoutParams(new LinearLayout.LayoutParams(
+                                    ViewGroup.LayoutParams.WRAP_CONTENT,
+                                    ViewGroup.LayoutParams.WRAP_CONTENT, 2f));
+                            ll.addView(b);
+                            ll.addView(cb);
+                            ((LinearLayout) findViewById(R.id.orders)).addView(ll);
+                            ((LinearLayout) findViewById(R.id.orderslayout)).setVisibility(View.VISIBLE);
+                        }
+                    }
                 } else {
-                    ((Button) findViewById(R.id.order)).setClickable(false);
-                    ((Button) findViewById(R.id.order)).setAlpha(.5f);
                     ((TextView) findViewById(R.id.tostis_left)).setText(getString(R.string.no_tostis_available));
                 }
             }
@@ -122,16 +176,37 @@ public class OrderActivity extends AppCompatActivity {
 
     private void getMaxOrder(DataSnapshot list) {
         // textviews with tostis_ordered and user_ordered
-        TextView user_tostis = findViewById(R.id.user_tostis);
         TextView tostis_left = findViewById(R.id.tostis_left);
-
-        max = Integer.parseInt(list.child("max").getValue().toString());
-        tostis_ordered =  Integer.parseInt(list.child("tostis_ordered").getValue().toString());
+        try {
+            max = Integer.parseInt(list.child("max").getValue().toString());
+            tostis_ordered = Integer.parseInt(list.child("tostis_ordered").getValue().toString());
+            counter = Integer.parseInt(list.child("counter").getValue().toString());
+        } catch (Exception e) {
+            max = 1; tostis_ordered = 0; counter = 0;
+        }
         remaining = max - tostis_ordered;
+        if (remaining <= 0)
+            today.child("finished").setValue(true);
 
         user_ordered = getOrderedUser(list);
-        user_tostis.setText(String.format(getString(R.string.tostis_remaining_1),2-user_ordered));
-        tostis_left.setText(String.format(getString(R.string.tostis_remaining_2),remaining));
+        if (user_ordered == 1) {
+            ((RadioButton) findViewById(R.id.amount_2)).setClickable(false);
+            ((RadioButton) findViewById(R.id.amount_2)).setAlpha(0.5f);
+            ((RadioButton) findViewById(R.id.amount_1)).performClick();
+
+        } else if (user_ordered >= 2) {
+            ((RadioButton) findViewById(R.id.amount_2)).setClickable(false);
+            ((RadioButton) findViewById(R.id.amount_2)).setAlpha(0.5f);
+            ((RadioButton) findViewById(R.id.amount_1)).setClickable(false);
+            ((RadioButton) findViewById(R.id.amount_1)).setAlpha(0.5f);
+            ((CheckBox) findViewById(R.id.ham)).setClickable(false);
+            ((CheckBox) findViewById(R.id.ham)).setAlpha(0.5f);
+            ((CheckBox) findViewById(R.id.cheese)).setClickable(false);
+            ((CheckBox) findViewById(R.id.cheese)).setAlpha(0.5f);
+            ((Button) findViewById(R.id.order)).setClickable(false);
+            ((Button) findViewById(R.id.order)).setAlpha(.5f);
+        }
+        tostis_left.setText(String.format(getString(R.string.tostis_remaining),remaining));
     }
 
     private long getOrderedUser(DataSnapshot list) {
@@ -143,6 +218,7 @@ public class OrderActivity extends AppCompatActivity {
         return total_ordered;
     }
 
+    @SuppressLint("DefaultLocale")
     public void makeOrder (View v) {
         int amount = ((RadioButton) findViewById(R.id.amount_1)).isChecked() ? 1 : 2;
         boolean withHam = ((CheckBox) findViewById(R.id.ham)).isChecked();
@@ -153,7 +229,8 @@ public class OrderActivity extends AppCompatActivity {
                 user.getSaldo() >= 0.50*amount &&
                 (withHam || withCheese)) {
             Order order = new Order(user.getName(), user.getUid(), amount, withHam, withCheese);
-            today.child(String.valueOf(tostis_ordered)).setValue(order);
+            today.child(String.valueOf(counter)).setValue(order);
+            today.child("counter").setValue(counter+1);
             today.child("tostis_ordered").setValue(tostis_ordered + amount);
             users.child(user.getUid()).child("saldo").setValue(user.getSaldo()-0.50*amount);
             Snackbar.make(findViewById(R.id.root), "Order placed", Snackbar.LENGTH_LONG).show();

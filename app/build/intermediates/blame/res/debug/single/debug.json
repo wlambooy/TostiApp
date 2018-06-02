@@ -1232,6 +1232,10 @@
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\90482e548737e169b77660701b66ae85\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_top_up.xml.flat",
+        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\activity_top_up.xml"
+    },
+    {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "C:\\Users\\wille\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\aefcf01333c67b7f300ce9385c6607e6\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -1754,6 +1758,10 @@
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_orderlist.xml.flat",
+        "source": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\src\\main\\res\\layout\\activity_orderlist.xml"
     },
     {
         "merged": "D:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
