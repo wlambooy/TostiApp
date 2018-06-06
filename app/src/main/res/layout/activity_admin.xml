@@ -9,21 +9,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
-        android:layout_marginTop="10dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/settosti1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Set todays amount of tostis"
-            android:textSize="25dp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="25dp" />
 
         <LinearLayout
+            android:id="@+id/settosti2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/settosti2"
             android:layout_marginHorizontal="90dp"
             android:orientation="horizontal">
 
@@ -49,17 +56,17 @@
             android:id="@+id/settosti3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="invisible"
             android:clickable="false"
-            android:text="Button" />
+            android:text="Button"
+            android:visibility="invisible" />
 
         <Button
             android:id="@+id/resettosti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Re-set todays tosti amount"
             android:onClick="showSet"
-            android:visibility="gone"/>
+            android:text="Re-set todays tosti amount"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/button5"
@@ -72,14 +79,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="finishToday"
-            android:text="Finish today"/>
+            android:text="Finish today" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Top Up balance"
-            android:onClick="gotoTopUp"/>
+            android:onClick="gotoTopUp"
+            android:text="Top Up balance" />
 
         <Button
             android:id="@+id/button8"

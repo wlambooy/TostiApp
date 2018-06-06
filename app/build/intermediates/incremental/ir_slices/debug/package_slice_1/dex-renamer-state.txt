@@ -1,4 +1,4 @@
-#Sat Jun 02 16:46:10 CEST 2018
-base.0=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\40
+#Wed Jun 06 17:06:11 CEST 2018
+base.0=D\:\\Willem\\Stack\\_RU\\R&D\\TostiApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\97
 path.0=classes.dex
 renamed.0=classes.dex

@@ -76,10 +76,13 @@ public class OrderlistActivity extends AppCompatActivity {
                         });
                         ll.addView(b);
                     }
-                    ((TextView) findViewById(R.id.ready)).setVisibility(
-                            ((LinearLayout) findViewById(R.id.strikelist)).getChildCount() > 0 ?
-                                    View.VISIBLE : View.INVISIBLE);
                 }
+                ((TextView) findViewById(R.id.ready)).setVisibility(
+                        llr.getChildCount() > 0 ?
+                                View.VISIBLE : View.INVISIBLE);
+                ((TextView) findViewById(R.id.nothing)).setVisibility(
+                       ll.getChildCount() <= 0 && llr.getChildCount() <= 0 ?
+                                View.VISIBLE : View.INVISIBLE);
             }
 
             @Override

@@ -189,11 +189,11 @@ public class OrderActivity extends AppCompatActivity {
             today.child("finished").setValue(true);
 
         user_ordered = getOrderedUser(list);
+        tostis_left.setText(String.format(getString(R.string.tostis_remaining),remaining));
         if (user_ordered == 1) {
             ((RadioButton) findViewById(R.id.amount_2)).setClickable(false);
             ((RadioButton) findViewById(R.id.amount_2)).setAlpha(0.5f);
             ((RadioButton) findViewById(R.id.amount_1)).performClick();
-
         } else if (user_ordered >= 2) {
             ((RadioButton) findViewById(R.id.amount_2)).setClickable(false);
             ((RadioButton) findViewById(R.id.amount_2)).setAlpha(0.5f);
@@ -205,8 +205,8 @@ public class OrderActivity extends AppCompatActivity {
             ((CheckBox) findViewById(R.id.cheese)).setAlpha(0.5f);
             ((Button) findViewById(R.id.order)).setClickable(false);
             ((Button) findViewById(R.id.order)).setAlpha(.5f);
+            tostis_left.setText(getString(R.string.user_max_reached));
         }
-        tostis_left.setText(String.format(getString(R.string.tostis_remaining),remaining));
     }
 
     private long getOrderedUser(DataSnapshot list) {

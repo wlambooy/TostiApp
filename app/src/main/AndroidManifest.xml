@@ -25,7 +25,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".OrderActivity" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".OrderlistActivity" />
         <activity android:name=".TopUpActivity"></activity>

@@ -20,10 +20,12 @@
     <string name="action_settings">Sign out</string>
     <string name="title_activity_create_account">Create Account</string>
     <string name="title_activity_login">Sign in</string>
-    <string name="tostis_rule">You can order up to 2 tostis per day</string>
+    <string name="tostis_rule">You can order up to 2 tostis per day - €0.50/tosti</string>
     <string name="tostis_remaining">There are %d tostis remaining</string>
     <string name="no_tostis_available">You cannot order tostis at this time</string>
     <string name="tostis_finished">You cannot order any more tostis today</string>
     <string name="no_tostis_today">You cannot order tostis today</string>
+    <string name="user_max_reached">You already ordered 2 tostis today</string>
+    <string name="sign_in_failed">Automatic sign in failed, please try manually</string>
 
 </resources>

@@ -35,7 +35,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.wille.tostiapp.OrderActivity" />
-        <activity android:name="com.example.wille.tostiapp.MainActivity" />
         <activity android:name="com.example.wille.tostiapp.AdminActivity" />
         <activity android:name="com.example.wille.tostiapp.OrderlistActivity" />
         <activity android:name="com.example.wille.tostiapp.TopUpActivity" />
