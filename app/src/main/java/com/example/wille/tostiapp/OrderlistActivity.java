@@ -1,6 +1,7 @@
 package com.example.wille.tostiapp;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -125,5 +126,9 @@ public class OrderlistActivity extends AppCompatActivity {
                 onButClick(v);
             }
         });
+    }
+
+    public void gotoHistory (View v) {
+        startActivity(new Intent(this, HistoryActivity.class));
     }
 }

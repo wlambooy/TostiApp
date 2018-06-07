@@ -13,7 +13,7 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/appicon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -38,6 +38,7 @@
         <activity android:name="com.example.wille.tostiapp.AdminActivity" />
         <activity android:name="com.example.wille.tostiapp.OrderlistActivity" />
         <activity android:name="com.example.wille.tostiapp.TopUpActivity" />
+        <activity android:name="com.example.wille.tostiapp.HistoryActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

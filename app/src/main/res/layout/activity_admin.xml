@@ -7,15 +7,15 @@
     tools:context=".AdminActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="Set todays amount of tostis"
             android:textAlignment="center"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:id="@+id/settosti2"
@@ -104,6 +104,23 @@
             android:text="Order" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Day finished"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/login"

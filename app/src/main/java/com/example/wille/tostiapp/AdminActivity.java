@@ -30,6 +30,7 @@ public class AdminActivity extends AppCompatActivity {
     private FirebaseAuth auth;
     private DatabaseReference database;
     private String date;
+    private boolean init = false;
 
     private User user;
 
@@ -52,10 +53,16 @@ public class AdminActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.hasChild(date)) {
+                    init = true;
                     findViewById(R.id.settosti1).setVisibility(View.GONE);
                     findViewById(R.id.settosti2).setVisibility(View.GONE);
                     findViewById(R.id.settosti3).setVisibility(View.GONE);
                     findViewById(R.id.resettosti).setVisibility(View.VISIBLE);
+                    try {
+                        findViewById(R.id.finished).setVisibility(
+                                (boolean) dataSnapshot.child(date).child("finished").getValue()
+                                        ? View.VISIBLE : View.INVISIBLE);
+                    } catch (Exception e) {}
                 }
             }
 
@@ -111,9 +118,11 @@ public class AdminActivity extends AppCompatActivity {
             return;
         }
         database.child(date).child("max").setValue(num);
-        database.child(date).child("tostis_ordered").setValue(0);
         database.child(date).child("finished").setValue(false);
-        database.child(date).child("counter").setValue(0);
+        if (!init) {
+            database.child(date).child("tostis_ordered").setValue(0);
+            database.child(date).child("counter").setValue(0);
+        }
         Toast.makeText(this, "Amount set", Toast.LENGTH_LONG).show();
     }
 
@@ -131,7 +140,7 @@ public class AdminActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         database.child(date).child("finished").setValue(true);
-                        Toast.makeText(AdminActivity.this, "Day finished", Toast.LENGTH_LONG).show();
+//                        Toast.makeText(AdminActivity.this, "Day finished", Toast.LENGTH_LONG).show();
                     }
                 });
         builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
@@ -159,6 +168,5 @@ public class AdminActivity extends AppCompatActivity {
         findViewById(R.id.settosti3).setVisibility(View.INVISIBLE);
         findViewById(R.id.resettosti).setVisibility(View.GONE);
         ((EditText) findViewById(R.id.editText)).requestFocus();
-
     }
 }

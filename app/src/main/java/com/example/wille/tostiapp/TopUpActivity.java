@@ -121,6 +121,9 @@ public class TopUpActivity extends AppCompatActivity {
             amount += selecteduser.getSaldo();
             database.child(selecteduser.getUid()).child("saldo").setValue(amount);
             Toast.makeText(this, "Saldo topped up", Toast.LENGTH_LONG).show();
+            selecteduser = null;
+        } else {
+            Toast.makeText(this,"Search again if you want to top up this user again", Toast.LENGTH_LONG).show();
         }
     }
 
