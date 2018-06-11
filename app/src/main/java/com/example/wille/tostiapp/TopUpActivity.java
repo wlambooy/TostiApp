@@ -47,7 +47,7 @@ public class TopUpActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 getSnapshot(database).addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                     @Override
-                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    public void onComplete(@NonNull Task<DataSnapshot> task) { // save datasnapshot of user database
                         users = task.getResult();
                     }
                 });
@@ -72,10 +72,10 @@ public class TopUpActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 String query = s.toString().toLowerCase();
-                if (users != null && query.length() > 0) {
+                if (users != null && query.length() > 0) { // find users by a string contains method for name and email
                     results.removeAllViews();
                     uids.clear();
-                    for (DataSnapshot i : users.getChildren()) {
+                    for (DataSnapshot i : users.getChildren()) { // list users satisfying the search conditions
                         if (((String) i.child("name").getValue()).toLowerCase().contains(query) ||
                                 ((String) i.child("email").getValue()).toLowerCase().contains(query)) {
                             Button b = new Button(TopUpActivity.this);
@@ -85,7 +85,7 @@ public class TopUpActivity extends AppCompatActivity {
                             uids.put(b, (String) i.child("uid").getValue());
                             b.setOnClickListener(new View.OnClickListener() {
                                 @Override
-                                public void onClick(View v) {
+                                public void onClick(View v) { // on click of a user, show top up menu
                                     LoginActivity.getUser(uids.get(v), database).addOnCompleteListener(new OnCompleteListener<User>() {
                                         @Override
                                         public void onComplete(@NonNull Task<User> task) {
@@ -105,7 +105,7 @@ public class TopUpActivity extends AppCompatActivity {
         });
     }
 
-    public void topUp (View v) {
+    public void topUp (View v) { // top up saldo of the selected user
         if (selecteduser != null) {
             double amount;
             try {

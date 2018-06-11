@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -26,7 +25,7 @@ public class StartingActivity extends AppCompatActivity {
     private Button createaccount;
     private TextView info;
 
-    private boolean[] stuck = new boolean[]{true, false};
+    private boolean[] timeout = new boolean[]{true, false}; // make sure timeout doesn't happen when it shouldn't
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,10 +44,10 @@ public class StartingActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         FirebaseUser currentUser = auth.getCurrentUser();
-        if (currentUser != null) {
+        if (currentUser != null) { // check if user is logged in
             (new Handler()).postDelayed(new Runnable() {
                 @Override
-                public void run() {
+                public void run() {     // Loading animation
                     info.setText("Loading....");
                 }
             }, 2000);
@@ -72,9 +71,9 @@ public class StartingActivity extends AppCompatActivity {
             }, 5000);
             (new Handler()).postDelayed(new Runnable() {
                 @Override
-                public void run() {
-                    if (stuck[0]) {
-                        stuck[1] = true;
+                public void run() { // timeout after 6 seconds
+                    if (timeout[0]) {
+                        timeout[1] = true;
                         auth.signOut();
                         info.setText(getString(R.string.sign_in_failed));
                         signin.setVisibility(View.VISIBLE);
@@ -84,18 +83,18 @@ public class StartingActivity extends AppCompatActivity {
             }, 6000);
             LoginActivity.getUser(currentUser.getUid(), database).addOnCompleteListener(new OnCompleteListener<User>() {
                 @Override
-                public void onComplete(@NonNull Task<User> task) {
-                    stuck[0] = false;
+                public void onComplete(@NonNull Task<User> task) { // FireBase tends to get stuck here, hence the timeout
+                    timeout[0] = false;
                     User user = task.getResult();
-                    if (user != null && !stuck[1]) {
+                    if (user != null && !timeout[1]) {
                         finish();
                         Intent intent = new Intent(StartingActivity.this, user.getAdmin() ? AdminActivity.class : OrderActivity.class);
                         intent.putExtra("user", user);
-                        startActivity(intent);
+                        startActivity(intent); // start main activity
                     }
                 }
             });
-        } else {
+        } else { // user not logged in, allow login/account creation
             info.setVisibility(View.INVISIBLE);
             signin.setVisibility(View.VISIBLE);
             createaccount.setVisibility(View.VISIBLE);

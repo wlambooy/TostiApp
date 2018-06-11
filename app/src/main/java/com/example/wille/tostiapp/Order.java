@@ -18,7 +18,7 @@ public class Order {
         assert(withHam || withCheese);
     }
 
-    public Order () {}
+    public Order () {} // necessary for FireBase
 
     public String getName() {
         return name;

@@ -52,7 +52,7 @@ public class AdminActivity extends AppCompatActivity {
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.hasChild(date)) {
+                if (dataSnapshot.hasChild(date)) { // check if tosti amount has already been set today
                     init = true;
                     findViewById(R.id.settosti1).setVisibility(View.GONE);
                     findViewById(R.id.settosti2).setVisibility(View.GONE);
@@ -99,7 +99,7 @@ public class AdminActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_settings) { // sign out menu item
             auth.signOut();
             finish();
             startActivity(new Intent(this, StartingActivity.class));
@@ -119,7 +119,7 @@ public class AdminActivity extends AppCompatActivity {
         }
         database.child(date).child("max").setValue(num);
         database.child(date).child("finished").setValue(false);
-        if (!init) {
+        if (!init) { // resetting a day will only affect the "finished" and "max" value
             database.child(date).child("tostis_ordered").setValue(0);
             database.child(date).child("counter").setValue(0);
         }
@@ -131,7 +131,7 @@ public class AdminActivity extends AppCompatActivity {
     }
 
     public void finishToday (View v) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this); // confirmation dialog
         builder.setCancelable(true);
         builder.setTitle("Finish Today?");
         builder.setMessage("Users will not be able to order any more tostis today");

@@ -248,7 +248,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         finishAffinity();
         Intent intent = new Intent(this, user.getAdmin() ? AdminActivity.class : OrderActivity.class);
         intent.putExtra("user", user);
-        startActivity(intent);
+        startActivity(intent); // start main activity
     }
 
     /**
@@ -270,27 +270,27 @@ public class CreateAccountActivity extends AppCompatActivity {
 
         @Override
         protected Boolean doInBackground(Void... params) {
-            final boolean[] success = {false,false};
-
+            final boolean[] success = {false,false}; // used as lock
+            // create account
             auth.createUserWithEmailAndPassword(mEmail, mPassword)
                     .addOnCompleteListener(CreateAccountActivity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()) {
+                            if (task.isSuccessful()) { //success
                                 Log.d("fbaselogin", "createUserWithEmail:success");
                                 User newuser = new User(false, mEmail, auth.getCurrentUser().getUid(), mName, 0);
                                 user = newuser;
                                 database.child(auth.getCurrentUser().getUid()).setValue(newuser);
                                 Toast.makeText(CreateAccountActivity.this, "Account Created, Signed in", Toast.LENGTH_SHORT).show();
                                 success[0] = true;
-                            } else {
+                            } else { // fail
                                 Log.w("fbaselogin", "createUserWithEmail:failure", task.getException());
                                 emailExists = task.getException().toString().contains("The email address is already in use by another account");
                             }
-                            success[1] = true;
+                            success[1] = true; // unlock
                         }
                     });
-            while (!success[1]) {
+            while (!success[1]) { // waiting for lock
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
@@ -302,7 +302,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(final Boolean success) {
+        protected void onPostExecute(final Boolean success) { // executes after doInBackground returns
             mAuthTask = null;
             showProgress(false);
 

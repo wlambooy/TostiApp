@@ -31,7 +31,7 @@ public class HistoryActivity extends AppCompatActivity {
         orders.addValueEventListener(new ValueEventListener() {
             @SuppressLint("DefaultLocale")
             @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) { // list all orders that are ready and received
                 LinearLayout ll = (LinearLayout) findViewById(R.id.history);
                 ll.removeAllViews();
                 for (int i = 0; dataSnapshot.hasChild(""+i); i++) {
@@ -47,7 +47,7 @@ public class HistoryActivity extends AppCompatActivity {
                     b.setAlpha(0.5f);
                     ll.addView(b);
                 }
-                if (ll.getChildCount() <= 0) {
+                if (ll.getChildCount() <= 0) { // make text appear if there is nothing to be shown
                     ((TextView) findViewById(R.id.nothing)).setVisibility(View.VISIBLE);
                     ((TextView) findViewById(R.id.readyreceived)).setVisibility(View.INVISIBLE);
                 } else {
@@ -57,9 +57,7 @@ public class HistoryActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
+            public void onCancelled(@NonNull DatabaseError databaseError) {}
         });
     }
 }

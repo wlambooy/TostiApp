@@ -3,7 +3,7 @@ package com.example.wille.tostiapp;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class User implements Parcelable {
+public class User implements Parcelable { // needs to implement Parcelable to pass this class from activity to activity
     private boolean admin;
     private String email;
     private String uid;
@@ -26,7 +26,7 @@ public class User implements Parcelable {
         saldo = in.readDouble();
     }
 
-    public User() { }
+    public User() { } // necessary for FireBase
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {

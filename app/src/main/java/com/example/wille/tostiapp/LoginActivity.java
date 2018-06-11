@@ -198,7 +198,7 @@ public class LoginActivity extends AppCompatActivity {
         finishAffinity();
         Intent intent = new Intent(this, user.getAdmin() ? AdminActivity.class : OrderActivity.class);
         intent.putExtra("user", user);
-        startActivity(intent);
+        startActivity(intent); // start main activity
     }
 
     /**
@@ -218,31 +218,31 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected Boolean doInBackground(Void... params) {
-            final boolean[] success = {false, false};
-
+            final boolean[] success = {false, false}; // used as lock
+            // sign in
             auth.signInWithEmailAndPassword(mEmail, mPassword)
                     .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()) {
+                            if (task.isSuccessful()) { // success
                                 Log.d("fbaselogin", "signInWithEmail:success");
                                 Toast.makeText(LoginActivity.this, "Signed In", Toast.LENGTH_SHORT).show();
                                 getUser(auth.getCurrentUser().getUid(), database).addOnCompleteListener(new OnCompleteListener<User>() {
                                     @Override
-                                    public void onComplete(@NonNull Task<User> task) {
+                                    public void onComplete(@NonNull Task<User> task) { // retrieve user
                                         user = task.getResult();
                                         success[0] = true;
-                                        success[1] = true;
+                                        success[1] = true; // unlock
                                     }
                                 });
-                            } else {
+                            } else { // fail
                                 Log.w("fbaselogin", "signInWithEmail:failure", task.getException());
                                 emailExists = task.getException().toString().contains("The password is invalid or the user does not have a password");
-                                success[1] = true;
+                                success[1] = true; // unlock
                             }
                         }
                     });
-            while (!success[1]) {
+            while (!success[1]) { // wait for lock
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
@@ -254,7 +254,7 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(final Boolean success) {
+        protected void onPostExecute(final Boolean success) { // executes after doInBackground returns
             mAuthTask = null;
             showProgress(false);
             if (success) {
@@ -275,7 +275,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    public static Task<User> getUser (String id, DatabaseReference database) {
+    public static Task<User> getUser (String id, DatabaseReference database) { // static method to retrieve a user by UID
         final TaskCompletionSource<User> tcs = new TaskCompletionSource<>();
         database.child(id).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

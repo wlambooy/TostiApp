@@ -70,20 +70,20 @@ public class OrderActivity extends AppCompatActivity {
                 ((Button) findViewById(R.id.order)).setAlpha(.5f);
                 if (dataSnapshot.hasChild(date)) {
                     boolean finished = false;
-                    if (dataSnapshot.child(date).hasChild("finished"))
-                        if ((boolean) dataSnapshot.child(date).child("finished").getValue()) {
+                    if (dataSnapshot.child(date).hasChild("finished")) // "max" is set the first when initializing a day so this check must be made
+                        if ((boolean) dataSnapshot.child(date).child("finished").getValue()) { // day is finished
                             ((TextView) findViewById(R.id.tostis_left)).setText(getString(R.string.tostis_finished));
                             finished = true;
                         }
-                    if ((long) dataSnapshot.child(date).child("max").getValue() > 0 && !finished) {
+                    if ((long) dataSnapshot.child(date).child("max").getValue() > 0 && !finished) { // regular case
                         ((Button) findViewById(R.id.order)).setClickable(true);
                         ((Button) findViewById(R.id.order)).setAlpha(1f);
                         getMaxOrder(dataSnapshot.child(date));
-                    } else if (!finished)
+                    } else if (!finished) // "max" is set to 0
                         ((TextView) findViewById(R.id.tostis_left)).setText(getString(R.string.no_tostis_today));
                     ((LinearLayout) findViewById(R.id.orders)).removeAllViews();
                     ((LinearLayout) findViewById(R.id.orderslayout)).setVisibility(View.GONE);
-                    for (final DataSnapshot i : dataSnapshot.child(date).getChildren()) {
+                    for (final DataSnapshot i : dataSnapshot.child(date).getChildren()) { // list your current orders
                         Order order;
                         try {
                              order = i.getValue(Order.class);
@@ -97,7 +97,7 @@ public class OrderActivity extends AppCompatActivity {
                                     order.getWithHam() ? 'H' : ' ', order.getWithCheese() ? 'C' : ' '));
                             b.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
                             b.setClickable(false);
-                            if (!order.getReady())
+                            if (!order.getReady()) // make orders that are ready pop out
                                 b.setAlpha(0.5f);
                             LinearLayout ll = new LinearLayout(OrderActivity.this);
                             ll.setOrientation(LinearLayout.HORIZONTAL);
@@ -125,12 +125,10 @@ public class OrderActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
+            public void onCancelled(@NonNull DatabaseError databaseError) {}
         });
 
-        users.addValueEventListener(new ValueEventListener() {
+        users.addValueEventListener(new ValueEventListener() { // update saldo
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 LoginActivity.getUser(user.getUid(), users).addOnCompleteListener(new OnCompleteListener<User>() {
@@ -164,7 +162,7 @@ public class OrderActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_settings) { // sign out menu item
             auth.signOut();
             finish();
             startActivity(new Intent(this, StartingActivity.class));
@@ -182,7 +180,7 @@ public class OrderActivity extends AppCompatActivity {
             tostis_ordered = Integer.parseInt(list.child("tostis_ordered").getValue().toString());
             counter = Integer.parseInt(list.child("counter").getValue().toString());
         } catch (Exception e) {
-            max = 1; tostis_ordered = 0; counter = 0;
+            max = 1; tostis_ordered = 0; counter = 0; // since the "max", "tostis_ordered" and "counter" do not get initialized at the same time
         }
         remaining = max - tostis_ordered;
         if (remaining <= 0)
@@ -190,11 +188,11 @@ public class OrderActivity extends AppCompatActivity {
 
         user_ordered = getOrderedUser(list);
         tostis_left.setText(String.format(getString(R.string.tostis_remaining),remaining));
-        if (user_ordered == 1) {
+        if (user_ordered == 1) { // user ordered one tosti
             ((RadioButton) findViewById(R.id.amount_2)).setClickable(false);
             ((RadioButton) findViewById(R.id.amount_2)).setAlpha(0.5f);
             ((RadioButton) findViewById(R.id.amount_1)).performClick();
-        } else if (user_ordered >= 2) {
+        } else if (user_ordered >= 2) { // user ordered the maximum amount for today
             ((RadioButton) findViewById(R.id.amount_2)).setClickable(false);
             ((RadioButton) findViewById(R.id.amount_2)).setAlpha(0.5f);
             ((RadioButton) findViewById(R.id.amount_1)).setClickable(false);
@@ -209,7 +207,7 @@ public class OrderActivity extends AppCompatActivity {
         }
     }
 
-    private long getOrderedUser(DataSnapshot list) {
+    private long getOrderedUser(DataSnapshot list) { // returns the amount of tostis user has ordered today
         long total_ordered = 0;
         for (DataSnapshot order : list.getChildren())
             if(order.hasChild("uid"))
@@ -232,7 +230,7 @@ public class OrderActivity extends AppCompatActivity {
             today.child(String.valueOf(counter)).setValue(order);
             today.child("counter").setValue(counter+1);
             today.child("tostis_ordered").setValue(tostis_ordered + amount);
-            users.child(user.getUid()).child("saldo").setValue(user.getSaldo()-0.50*amount);
+            users.child(user.getUid()).child("saldo").setValue(user.getSaldo()-0.50*amount); // make new order
             Snackbar.make(findViewById(R.id.root), "Order placed", Snackbar.LENGTH_LONG).show();
         } else {
             if (remaining <= 0)

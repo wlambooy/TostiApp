@@ -30,8 +30,8 @@ public class OrderlistActivity extends AppCompatActivity {
 
     private DatabaseReference orders;
 
-    private Map<Button, Integer> ranks = new HashMap<>();
-    private List<Integer> ready = new ArrayList<>();
+    private Map<Button, Integer> ranks = new HashMap<>();   // used to maintain the order on orders
+    private List<Integer> ready = new ArrayList<>();        // ""
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +48,7 @@ public class OrderlistActivity extends AppCompatActivity {
                 ll.removeAllViews();
                 LinearLayout llr = (LinearLayout) findViewById(R.id.strikelist);
                 llr.removeAllViews();
-                for (int i = 0; dataSnapshot.hasChild(""+i); i++) {
+                for (int i = 0; dataSnapshot.hasChild(""+i); i++) { // list all active orders
                     Order order = dataSnapshot.child("" + i).getValue(Order.class);
                     Button b = new Button(OrderlistActivity.this);
                     b.setTypeface(Typeface.MONOSPACE);
@@ -81,7 +81,7 @@ public class OrderlistActivity extends AppCompatActivity {
                 ((TextView) findViewById(R.id.ready)).setVisibility(
                         llr.getChildCount() > 0 ?
                                 View.VISIBLE : View.INVISIBLE);
-                ((TextView) findViewById(R.id.nothing)).setVisibility(
+                ((TextView) findViewById(R.id.nothing)).setVisibility( // make text appear if there is nothing to be shown
                        ll.getChildCount() <= 0 && llr.getChildCount() <= 0 ?
                                 View.VISIBLE : View.INVISIBLE);
             }
@@ -93,7 +93,7 @@ public class OrderlistActivity extends AppCompatActivity {
         });
     }
 
-    public void onButClick (View v) {
+    public void onButClick (View v) { // move to ready
         Button but = (Button) v;
         but.setAlpha(0.5f);
         ((LinearLayout) findViewById(R.id.orderlist)).removeView(but);
@@ -109,11 +109,11 @@ public class OrderlistActivity extends AppCompatActivity {
         });
     }
 
-    public void onButClick2 (View v) {
+    public void onButClick2 (View v) { // move back to not ready
         Button but = (Button) v;
         ((LinearLayout) findViewById(R.id.strikelist)).removeView(but);
         int num = 0;
-        for (int i : ready)
+        for (int i : ready) // calculate where the order should be placed in the list
             if (i < ranks.get(but))
                 num++;
         ((LinearLayout) findViewById(R.id.orderlist)).addView(but,ranks.get(but)-num);
